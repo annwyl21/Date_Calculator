@@ -10,6 +10,9 @@
 
 echo "Starting Python Date Difference Calculator"
 
-python date_difference.py 2015-11-27 2024-09-06
+python date_difference.py 2015-11-27 2024-09-06 > thelog.log
+
+echo $?
+# return a status code; 0 for success and non-zero for unhappy code
 
 echo "Finished"

@@ -6,3 +6,8 @@ Make script executable
 Send stdout to a log file
 Log output with `>` or `1>`
 Log error with `2>`
+
+append with `>>`
+
+return a status code
+`echo $?`

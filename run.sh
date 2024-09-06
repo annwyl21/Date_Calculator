@@ -1,9 +1,15 @@
 #!/bin/bash
+# set -x
 
-# run.sh: A simple python script to determine the age of my dog
+# A simple python script to determine the age of my dog
+# chmod +x run.sh
+# -x to debug
+
+# To Run ./run.sh in Linux
+# in Powershell bash ./run.sh
 
 echo "Starting Python Date Difference Calculator"
 
-python3 script.py "2015-11-27" "2024-09-06"
+python date_difference.py 2015-11-27 2024-09-06
 
 echo "Finished"
